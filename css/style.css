@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/Banner\ Image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+}
+
+.banner-text {
+  color: blue;
+  text-align: center;
+}
+
+.banner-text h4 {
+  font-size: 42px;
+}
+
+.banner-text h1 {
+  font-size: 80px;
+}
+
+/* discounted */
+
+.discount {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding-bottom: 4 0px;
+}
+
+.discount-text h2 {
+  color: red;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.discount-text p {
+  font-size: 12px;
+  color: red;
+  padding-bottom: 5px;
+}
+
+.discount-text h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.welcome {
+  margin-top: 50px;
+  width: 100;
+  background-image: url(../images/Vectorrr.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.welcome-party {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.welcome-text {
+  color: white;
+}
+
+.welcome-text h1 {
+  font-size: 80px;
+}
+
+.welcome-text p {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.welcome-text button {
+  padding: 7px 15px;
+  border: none;
+  border-radius: 7px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.welcome-img {
+  padding: 20px;
+}
+
+.offer-container {
+  width: 90%;
+  margin: auto;
+}
+
+.offer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.offer-text {
+  width: 35%;
+}
+
+.offer-text h4 {
+  color: red;
+  text-transform: uppercase;
+}
+
+.offer-text h2 {
+  font-size: xx-large;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+
+.offer-img {
+  width: 35%;
+}
+
+.offer-img img {
+  width: 300px;
+  padding: 20px;
+  border: 7px solid red;
+  border-radius: 50%;
+}
+
+.offer-date h2 {
+  color: red;
+}
+
+.offer-date p {
+  padding: 15px 0;
+}
+
+.portfolio {
+  width: 90%;
+  margin: auto;
+}
+
+.portfolio-text {
+  margin-bottom: 50px;
+}
+
+.portfolio-text h4 {
+  color: red;
+  text-transform: uppercase;
+}
+
+.portfolio-text h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  padding: 20px 0;
+}
+
+.portfolio-grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.portfolio-grid img {
+  width: 300px;
+  height: auto;
+}
+
+.sub-container {
+  margin: 40px 0;
+  width: 100%;
+}
+
+.sub {
+  width: 80%;
+  text-align: center;
+  background-color: rgb(245, 215, 221);
+  margin: auto;
+  border-radius: 7px;
+  padding: 90px;
+}
+
+.sub img {
+  width: 70px;
+  height: auto;
+}
+
+.sub h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 15px 0;
+}
+
+.sub p {
+  padding: 15px 0;
+}
+
+.sub-input input {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px 0 0 30px;
+  font-size: large;
+}
+
+.sub-input button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 0 30px 30px 0;
+  color: white;
+  background-color: red;
+  font-size: large;
+}
+
+.footer-container {
+  background-color: black;
+  color: white;
+}
+.footer {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.footer-address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
+}
+
+.footer-icon img {
+  width: 40px;
+  height: auto;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
